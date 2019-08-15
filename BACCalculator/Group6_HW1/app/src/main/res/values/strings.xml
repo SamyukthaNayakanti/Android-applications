@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Group6_HW1</string>
+    <string name="save">Save</string>
+    <string name="weight">Weight (lbs)</string>
+    <string name="gender">Gender</string>
+    <string name="drinksize">Drink Size</string>
+    <string name="alcohol">Alcohol%</string>
+    <string name="addDrink">Add Drink</string>
+    <string name="reset">Reset</string>
+    <string name="yourStatus">Your Status:</string>
+    <string name="title">BAC Calculator</string>
+    <string name="bacLevel">BAC Level:</string>
+    <string name="enterWeight">“Enter Weight”</string>
+    <string name="oneoz">1 oz</string>
+    <string name="fiveoz">5 oz</string>
+    <string name="twelveoz">12 oz</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="safe">You are safe</string>
+    <string name="careful">Be careful</string>
+    <string name="Overlimit">Over the limit</string>
+    <string name="enterweight">“Enter the weight in lb.”</string>
+    <string name="introalcohol">0%</string>
+    <string name="initialBAC">0.00</string>
+
+</resources>
