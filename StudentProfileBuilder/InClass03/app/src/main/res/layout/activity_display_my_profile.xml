@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayMyProfileActivity">
+
+    <ImageView
+        android:id="@+id/selectedavatar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04000002"
+        app:srcCompat="@drawable/select_image" />
+
+    <TextView
+        android:id="@+id/namedisplayed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/namedisplay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectedavatar" />
+
+    <TextView
+        android:id="@+id/studentIDdisplayed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/studentdisplay"
+        app:layout_constraintStart_toStartOf="@+id/namedisplayed"
+        app:layout_constraintTop_toBottomOf="@+id/namedisplayed" />
+
+    <TextView
+        android:id="@+id/departmendisplayed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/department"
+        app:layout_constraintStart_toStartOf="@+id/studentIDdisplayed"
+        app:layout_constraintTop_toBottomOf="@+id/studentIDdisplayed" />
+
+    <TextView
+        android:id="@+id/editname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/namedisplayed"
+        app:layout_constraintStart_toStartOf="@+id/editstudentID"
+        app:layout_constraintTop_toTopOf="@+id/namedisplayed" />
+
+    <TextView
+        android:id="@+id/editstudentID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/studentIDdisplayed"
+        app:layout_constraintStart_toStartOf="@+id/editdepartment"
+        app:layout_constraintTop_toTopOf="@+id/studentIDdisplayed" />
+
+    <TextView
+        android:id="@+id/editdepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/departmendisplayed"
+        app:layout_constraintStart_toEndOf="@+id/departmendisplayed"
+        app:layout_constraintTop_toTopOf="@+id/departmendisplayed" />
+
+    <Button
+        android:id="@+id/button_edit"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editdepartment" />
+</android.support.constraint.ConstraintLayout>
