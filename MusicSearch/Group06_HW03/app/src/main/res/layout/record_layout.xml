@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/artistlabel"
+        app:layout_constraintStart_toStartOf="@+id/tr"
+        app:layout_constraintTop_toBottomOf="@+id/tr" />
+
+    <TextView
+        android:id="@+id/pr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/pricelabel"
+        app:layout_constraintBottom_toBottomOf="@+id/trackName"
+        app:layout_constraintEnd_toStartOf="@+id/pricevalue"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/trackName"
+        app:layout_constraintTop_toTopOf="@+id/trackName"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/trackName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tr"
+        app:layout_constraintStart_toEndOf="@+id/tr"
+        app:layout_constraintTop_toTopOf="@+id/tr" />
+
+    <TextView
+        android:id="@+id/dt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/datelabel"
+        app:layout_constraintBottom_toBottomOf="@+id/artistName"
+        app:layout_constraintEnd_toStartOf="@+id/datevalue"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/artistName"
+        app:layout_constraintTop_toTopOf="@+id/artistName" />
+
+    <TextView
+        android:id="@+id/datevalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/dt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dt" />
+
+    <TextView
+        android:id="@+id/pricevalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="@string/pricevaluedefault"
+        app:layout_constraintBottom_toBottomOf="@+id/pr"
+        app:layout_constraintEnd_toStartOf="@+id/dllr"
+        app:layout_constraintTop_toTopOf="@+id/pr" />
+
+    <TextView
+        android:id="@+id/dllr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/dollarlabel"
+        app:layout_constraintBottom_toBottomOf="@+id/pricevalue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/pricevalue" />
+
+    <TextView
+        android:id="@+id/artistName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ar"
+        app:layout_constraintStart_toEndOf="@+id/ar"
+        app:layout_constraintTop_toTopOf="@+id/ar" />
+
+    <TextView
+        android:id="@+id/tr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/tracklabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

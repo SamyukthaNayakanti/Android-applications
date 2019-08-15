@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">iTunes Music Search</string>
+    <string name="searchtext">Search</string>
+    <string name="limitvalue">Limit:</string>
+    <string name="search">Search</string>
+    <string name="reset">Reset</string>
+    <string name="sortby">Sort by:</string>
+    <string name="price">Price</string>
+    <string name="date">Date</string>
+    <string name="results">Results</string>
+    <string name="genrelabel">Genre:</string>
+    <string name="artistlabel">Artist:</string>
+    <string name="albumlabel">Album:</string>
+    <string name="trackpricelabel">Track Price:</string>
+    <string name="albumpricelabel">Album Price:</string>
+    <string name="tracklabel">Track:</string>
+    <string name="minValue">10</string>
+    <string name="pricelabel">Price:</string>
+    <string name="dollarlabel">$</string>
+    <string name="datelabel">Date:</string>
+    <string name="pricevaluedefault">0.00</string>
+    <string name="finish">Finish</string>
+</resources>
