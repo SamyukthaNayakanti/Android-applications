@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Group06_HW4</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dishlabel">Dish:</string>
+    <string name="dishname">Dish Name</string>
+    <string name="addingredients">Add Ingredients</string>
+    <string name="ingredientlabel">Ingredient</string>
+    <string name="add">+</string>
+    <string name="remove">x</string>
+    <string name="search">Search</string>
+    <string name="titlelabel">Title:</string>
+    <string name="ingredientslabel">Ingredients:</string>
+    <string name="urllabel">URL:</string>
+    <string name="finish">Finish</string>
+    <string name="loading">Loading...</string>
+</resources>
