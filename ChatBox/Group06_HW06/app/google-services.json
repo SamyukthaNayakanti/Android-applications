@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "526572939507",
+    "firebase_url": "https://hw06-df73f.firebaseio.com",
+    "project_id": "hw06-df73f",
+    "storage_bucket": "hw06-df73f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526572939507:android:e84495424423efe7",
+        "android_client_info": {
+          "package_name": "com.example.group06_hw06"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZD3dkk9ALIt7bRtM44oA9wQFAY5718N8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526572939507-chnhurd4837qbmppbasrmvbqt5ebi6cg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

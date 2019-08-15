@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Group06_HW06</string>
+    <string name="login_label">Login</string>
+    <string name="signup_label">Signup</string>
+    <string name="password_label">Password</string>
+    <string name="email_label">Email</string>
+    <string name="fname_label">First Name</string>
+    <string name="lname_label">Last Name</string>
+    <string name="cfmpwd_label">Confirm Password</string>
+    <string name="send_message_label">Type message to send...</string>
+    <string name="cancel_label">Cancel</string>
+</resources>
